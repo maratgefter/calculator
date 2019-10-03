@@ -70,12 +70,21 @@ class Calculator
 
     function sort_up($array)
     {
-        return sort($array);
+        sort($array);
+        return $array;
     }
 
     function reverse($array)
     {
         $reverse_array = array_reverse($array);
         return $reverse_array;
+    }
+
+    function add_one($array)
+    {
+        $array[array_keys($array)[1]]++;
+        return $array;
+        // $array[1] = $array[1] + 1;
+        // return $array;
     }
 }
