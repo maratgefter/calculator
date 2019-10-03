@@ -68,4 +68,14 @@ class Calculator
         }
     }
 
+    function sort_up($array)
+    {
+        return sort($array);
+    }
+
+    function reverse($array)
+    {
+        $reverse_array = array_reverse($array);
+        return $reverse_array;
+    }
 }
