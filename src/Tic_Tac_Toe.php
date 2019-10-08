@@ -1,5 +1,6 @@
 <?
-include 'auto_go.php';
+
+namespace App;
 
 class Tic_Tac_Toe {
 
